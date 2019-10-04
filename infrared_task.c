@@ -17,7 +17,7 @@ void infrared_task(void const * argument)
 	
 	if(HAL_GPIO_ReadPin(infrared_1_GPIO_Port,infrared_1_Pin))
 	{	
-		__HAL_TIM_SetCompare(&htim13,TIM_CHANNEL_1,82);
+		
 		HAL_GPIO_WritePin(LED_C_GPIO_Port,LED_C_Pin,GPIO_PIN_RESET);
 	}
 	else
