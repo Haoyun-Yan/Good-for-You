@@ -19,6 +19,7 @@ void infrared_task(void const * argument)
 	{	
 		__HAL_TIM_SetCompare(&htim13,TIM_CHANNEL_1,82);
 		HAL_GPIO_WritePin(LED_C_GPIO_Port,LED_C_Pin,GPIO_PIN_RESET);
+		Joe Edit分支增加了一个代码；
 	}
 	else
 	{
