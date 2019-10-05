@@ -3,7 +3,7 @@
   * @version 1.0
   * @date Step,24th 2019
 	*
-  * @brief  ¹âµç¿ª¹Ø¼ì²â
+  * @brief  ï¿½ï¿½ç¿ªï¿½Ø¼ï¿½ï¿½
 	*
   *	@author Haoyun Yan
   *
@@ -19,6 +19,8 @@ void infrared_task(void const * argument)
 	{	
 		__HAL_TIM_SetCompare(&htim13,TIM_CHANNEL_1,82);
 		Master change this row.
+		HAL_GPIO_WritePin(LED_C_GPIO_Port,LED_C_Pin,GPIO_PIN_RESET);
+		Joe Editï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ë£»
 	}
 	else
 	{
